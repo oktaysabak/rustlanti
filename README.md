@@ -1,0 +1,2 @@
+# rustlanti
+learning rustlang
