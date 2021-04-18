@@ -7,6 +7,21 @@ fn main() {
 
     println!("five function result is {}", five());
     println!("five function result is {}", plus_one(five()));
+    let formal = true;
+    let greeting = if formal {
+        "Good evening."
+    } else {
+        "Hello, friend!"
+    };
+    println!("{}", greeting); // prints "Good evening."
+    let mut i = 1;
+    let something = loop {
+        i *= 2;
+        if i > 100 {
+            break i;
+        }
+    };
+    assert_eq!(something, 128);
 }
 
 fn another_function() {
@@ -14,7 +29,6 @@ fn another_function() {
 }
 
 fn another_function_with_parameter(x: i32) {
-
     println!("the value of x is: {}", x);
 }
 

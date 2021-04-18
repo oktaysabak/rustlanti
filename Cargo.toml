@@ -11,4 +11,4 @@ rand = "0.5.6"
 
 [[bin]]
 name = "rustlanti"
-path = "main.rs"
+path = "src/main.rs"
